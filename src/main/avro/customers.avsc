@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "customers",
+  "namespace": "com.andrewjones.avro",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "first_name",
+      "type": "string"
+    },
+    {
+      "name": "last_name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ]
+}
